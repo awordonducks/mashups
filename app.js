@@ -52,7 +52,3 @@ app.get("/api/:word", function(req, res){
 app.get("*", function(req, res){
 	response.send('Sorry, nothing doing here.');
 });
-
-// Start the server
-app.listen(3000);
-console.log('Express started on port 3000');

@@ -1,13 +1,14 @@
 {
-  "name": "your-application-name",
+  "name": "Mashups Final",
   "version": "0.0.1",
   "private": true,
   "engines": {
     "node": ">= 0.10.0"
   },
   "scripts": {
-    "start": "node app.js"
+     "start": "node server.js"
   },
+  "main": "server.js"
   "dependencies": {
     "ejs": "*",
     "express": "4.x",
